@@ -6,7 +6,6 @@ namespace SRC\TEST\WORDSEG;
 use \SRC\CONFIG\CONFIG;
 
 error_reporting(E_ALL ^ E_NOTICE);
-require_once(__DIR__ . "/../vendor/autoload.php");
 require_once("../src/config/Config.php");
 require_once("../src/model/FenciModel.php");
 require_once("../src/wordseg/discovery.php");
