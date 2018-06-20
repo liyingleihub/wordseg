@@ -1,0 +1,23 @@
+{
+    "name": "yinglei/new_word_discovery",
+    "description": "a new word discovery sdk",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "yinglei",
+            "email": "yinglei@staff.sina.com.cn"
+        }
+    ],
+    "require": {
+        "php": ">=5.4"  
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Wordseg\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
